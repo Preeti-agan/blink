@@ -3,6 +3,7 @@ import './First.css'
 const First = () => {
   return (
    <div className='main'>
+
     <div className='section'>
       <div className='first'>
       <a>First</a>
@@ -40,6 +41,9 @@ const First = () => {
         <div className='right1'>
             <img className='imgright1' src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/portrait-happy-excited-man-holding-laptop-computer.png" alt=""></img>
         </div>
+    </div>
+    <div className='sectionn3'>
+    
     </div>
     </div>
     
