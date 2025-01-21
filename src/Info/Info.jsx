@@ -11,19 +11,19 @@ const Info = () => {
             <div className='profilebody'>
                 <p className='p'>
                     <span className='span'>Name</span>
-                    <span>Joshua Morgan</span>
+                    <span className='span1'>Joshua Morgan</span>
                 </p>
                 <p  className='p'>
                     <span className='span'>Birthday</span>
-                    <span>Aug 12, 1986</span>
+                    <span className='span1'>Aug 12, 1986</span>
                 </p>
                 <p  className='p'>
                     <span className='span'>Phone</span>
-                    <span> 120-240-9600</span>
+                    <span className='span1'> 120-240-9600</span>
                 </p>
                 <p  className='p'>
                     <span className='span'>Email</span>
-                    <span> hello@josh.design</span>
+                    <span className='span1'> hello@josh.design</span>
                 </p>
             </div>
         </div>
