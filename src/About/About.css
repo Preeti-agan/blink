@@ -3,6 +3,9 @@
      flex-direction:row;
      justify-content:center;
      gap:29px;
+     
+  padding-left:60px; 
+  padding-right:60px;
 }
 .leftimg{
    max-width:600px;
@@ -39,7 +42,7 @@
 .para{
     text-align:left;
    color:#717275;
-   font-size:23px;
+   font-size:19px;
    letter-spacing: 0.04px;
    line-height:1.4;
   margin-top:-20px;
@@ -47,8 +50,8 @@
 .heading1{
     color:black;
     letter-spacing:0.4px;
-    font-weight:600;
-   font-size:38px;
+    font-weight:700;
+   font-size:35px;
     line-height:1.2; 
     text-align:left;
     

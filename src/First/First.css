@@ -8,6 +8,7 @@
     display:flex;
     padding-top:25px;
     gap:90px;
+    align-items:center;
 }
 .ul{
     display:flex;
@@ -65,9 +66,10 @@ border-bottom: 2px solid #20c997 ;
 .sectionn2{
     display:flex;
     left:20px;
+    position:absolute;
 }
 .left1{
-    align-items: center;
+   text-align: left;
     flex-wrap: wrap;
 }
 .avtar{
@@ -107,14 +109,16 @@ border-bottom: 2px solid #20c997 ;
     color: white;
     font-weight:700;
     padding: 12px 24px;
+    
     font-size:18px;
-    text-align:left;
+   display: inline-block;
+    align-items:left;
 }
 .right1{
-    background-color:white;
+    /* background-color:white;
     border-radius: 100%;
     width: 350px;
-    height: 350px;
+    height: 350px; */
     /* position: absolute; */
     z-index: 22;
     top: -50px;
@@ -128,5 +132,13 @@ border-bottom: 2px solid #20c997 ;
 }
 .left1{
     margin-top:100px;
-    padding-left: 60px;
+    padding-left:60px;
+}
+.sectionn3{
+    background-color: #20c997;
+    /* position:relative; */
+    height:515px;
+    width:100%;
+    object-fit: cover;
+
 }
