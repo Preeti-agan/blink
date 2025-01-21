@@ -1,0 +1,132 @@
+.main{
+    
+    background-color: #535da1;
+   background-size: cover;
+   margin-bottom:100px;
+}
+.section{
+    display:flex;
+    padding-top:25px;
+    gap:90px;
+}
+.ul{
+    display:flex;
+    gap:45px;
+}
+.list{
+    list-style:none;
+    display: inline-block;
+    color: #f9f9f9;;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.first a{
+    font-size:32px;
+    font-weight:700;
+    color:white;
+    padding-left:80px;
+}
+.phone{
+    max-width:15%;
+    height:auto;
+}
+.call{
+    display:flex;
+    gap:10px;
+    margin-left: 150px;;
+}
+.number{
+    color:white;
+    border:2px solid white;
+   font-size:20px;
+    border-radius:27px;
+    font-weight: 600;
+   
+   padding:10px;
+    padding-left:18px;
+    padding-right:18px;
+}
+.list:hover{
+    color:#20c997;
+    cursor:pointer;
+border-bottom: 2px solid #20c997 ; 
+  padding-bottom: 5px;
+    
+}
+.active{
+    color:#20c997;
+    cursor:pointer;
+border-bottom: 2px solid #20c997 ; 
+  padding-bottom: 5px;
+}
+.sectionn2{
+    display:flex;
+    left:20px;
+}
+.left1{
+    align-items: center;
+    flex-wrap: wrap;
+}
+.avtar{
+    border-radius: 100px;
+    width: 90.4px;
+    height: 90.4px;
+    object-fit: cover;
+}
+.hi{
+    display: flex;
+    gap:14px;
+    align-items:center;
+}
+.hello{
+    font-size: 44px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 1rem 3rem;
+    color: black;
+    border-radius:100px; 
+    display: inline-block;
+    padding: 8px 24px;
+
+}
+.work{
+    font-size: 33px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 1rem 3rem;
+    color: #20c997;
+    border-radius:100px; 
+    display: inline-block;
+    padding: 8px 24px;
+    letter-spacing: 0.01px;
+}
+.lets{
+    background-color: #535da1;
+    border-radius: 100px;
+    color: white;
+    font-weight:700;
+    padding: 12px 24px;
+    font-size:18px;
+    text-align:left;
+}
+.right1{
+    background-color:white;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    /* position: absolute; */
+    z-index: 22;
+    top: -50px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    pointer-events: none;
+}
+.imgright1{
+    max-width:550px;
+}
+.left1{
+    margin-top:100px;
+    padding-left: 60px;
+}
