@@ -3,10 +3,10 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="left">
-        <img className="leftimg"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/couple-working-from-home-together-sofa.jpg" alt=""></img>
+      <div className="leftt">
+        <img className="leftimgg"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/couple-working-from-home-together-sofa.jpg" alt=""></img>
       </div>
-      <div className="right">
+      <div className="rightt">
         <div className="mystory">
             <h2 className="heading">My Story </h2>
             <img className="storyimg" src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg"alt=""></img>
