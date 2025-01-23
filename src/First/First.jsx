@@ -4,7 +4,7 @@ const First = () => {
   return (
    <div className='main'>
 
-    <div className='section'>
+    <div className='sectionn'>
       <div className='first'>
       <a>First</a>
       </div>

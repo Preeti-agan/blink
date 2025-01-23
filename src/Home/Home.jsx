@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <div class="info-item">
                 <span class="info-label">Email</span>
-                <span>hello@josh.design</span>
+                <span>hello@.design</span>
             </div>
         </div>
 
