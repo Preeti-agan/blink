@@ -6,12 +6,14 @@
      margin:auto;
      justify-content: center;
      transition: all ease 0.2s;
+     margin-top: 50px;
 }
 .br-inner{
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -42,12 +44,21 @@
     transition: all ease 0.5s;
     text-align: left;
 }
+.br-1:hover{
+    border:2px solid #14B789;
+}
 .br-img{
     border-radius:20px;
-    display: block;
+    display:block;
     width:100%;
     transform: rotate(10deg) translateY(80px);
     transition: all ease 0.5s;
+}
+.br-img:hover{
+    transform:rotate(20deg) translateY(100px);
+}
+.br-h3{
+    transform: scale(1.1);
 }
 @media only screen 
 and (min-device-width : 320px) 

@@ -13,6 +13,7 @@ import Projects from './Projects/Projects'
 import Branding from './Branding/Branding'
 
 import New from './New/New'
+import Website from './Website/Website'
 
 function App(){
 
@@ -20,14 +21,17 @@ function App(){
   return(
     <>
    
-    <First/> 
+  <First/> 
   <About/>
   <Home/> 
   <Companies/>
-   <Services/> 
-   <Branding/>
-   <New/> 
-  <Projects/> 
+   <Services/>
+   <Website/>  
+  <Projects/>  
+    <Branding/> 
+   {/* <New/>  */}
+   
+  
        
       
     

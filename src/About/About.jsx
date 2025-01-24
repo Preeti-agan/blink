@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about1">
       <div className="leftt">
         <img className="leftimgg"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/couple-working-from-home-together-sofa.jpg" alt=""></img>
       </div>

@@ -2,12 +2,15 @@
     
     background-color: #535da1;
    background-size: cover;
-   margin-bottom:100px;
+   
+  height:630px;;
+  object-fit:cover;
+max-width:13260px;
 }
 .sectionn{
     display:flex;
     padding-top:25px;
-    gap:90px;
+    gap:130px;
     justify-content:center;
 }
 .ul{
@@ -21,7 +24,7 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
     
 }
 .first a{
@@ -37,7 +40,7 @@
 .call{
     display:flex;
     gap:10px;
-    margin-left: 150px;;
+    margin-left: 140px;;
 }
 .number{
     color:white;
@@ -64,16 +67,18 @@ border-bottom: 2px solid #20c997 ;
 }
 .sectionn2{
     display:flex;
-    left:291px;
-    /* position:absolute; */
     justify-content:center;
-    padding-left: 130px;
-}
-.left1{
-   text-align:left;
     flex-wrap:wrap;
-    display: flex;
+    margin-top:60px;
+    gap:30px;
+    
+}
+.left11{
+  margin-top: 50px;
+  align-items: left;
+display: flex;
     flex-direction:column;
+    padding-left:128px;
 }
 .avtar{
     border-radius: 100px;
@@ -114,7 +119,7 @@ border-bottom: 2px solid #20c997 ;
     padding: 12px 24px;
     font-size:18px;
    display:inline-block;
-    align-items:left;
+    text-align: left;
 }
 .right1{
     /* background-color:white;
@@ -125,17 +130,16 @@ border-bottom: 2px solid #20c997 ;
     z-index: 22;
     top: -50px;
     right: 0px;
-    left: 0px;
-    margin: auto;
+    /* left: 0px;
+    margin:auto; */
     pointer-events: none;
+    
+    
 }
 .imgright1{
-    max-width:550px;
+    max-width:530px;
 }
-.left1{
-    margin-top:100px;
-    /* padding-left:60px; */
-}
+
 .sectionn3{
     /* background-color: #20c997;
     position:relative;
@@ -147,13 +151,39 @@ border-bottom: 2px solid #20c997 ;
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-   .sectionn{
-    flex-wrap:wrap;
-    align-items:left;
-   } 
-   .section2{
-    padding:0px;
-    flex-wrap:wrap;
-    flex-direction: column;
+    
+   .sectionn2{
+    display:none;
+    
    }
+   .home ul{
+    justify-content:center;
+     flex-direction: column;
+    padding-left:0;
+   text-align:center;
+    gap:70px;
+    padding-top:70px;
+    margin: auto;
+   }
+   .first a{
+    font-size:4rem;
+   }
+   .call{
+    display: none;
+   }
+   .list{
+    font-size:28px;
+   }
+   .main{
+    overflow-x:hidden;
+    background-color: #535da1;
+   margin-bottom:100px;
+   height:70vh;
+   }
+   .first a{
+    padding-left: 0px;
+   }
+   
+   
+   
 }

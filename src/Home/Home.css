@@ -3,8 +3,8 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
-    max-width: 800px; 
+    gap:20px; 
+    max-width:800px; 
     margin: 0 auto; 
     padding-bottom: 40px;;
    
@@ -22,6 +22,9 @@
    
    
 }
+.info-card h2{
+    text-align:center;
+}
 
 .info-card h2, .stats-card h2 {
     margin-top: 0;
@@ -34,8 +37,7 @@
     margin-bottom: 10px;
     min-width: 80px;
     margin-right: 10px;
-   
-    display: inline-block;
+   display: inline-block;
 }
 
 .info-label {
