@@ -9,7 +9,7 @@ const Branding = () => {
         <small className='small'>Branding</small>
         <h3 className='br-h3'>Zoik agency</h3>
       </div>
-      <img  className="br-img"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"alt=""></img>
+      <img  className="br-img"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" alt=""></img>
       </div>
       
 
@@ -28,7 +28,7 @@ const Branding = () => {
         <small className='small'>Website</small>
         <h3 className='br-h3'>Polo</h3>
       </div>
-      <img  className="br-img"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"alt=""></img>
+      <img  className="br-img"src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" alt=""></img>
       </div>
 
 

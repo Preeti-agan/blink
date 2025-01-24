@@ -8,6 +8,7 @@ const Services = () => {
         <h2 className='ser-h2'>Services</h2>
       </div>
     </div>
+   
   )
 }
 
