@@ -42,4 +42,10 @@ and (max-device-width : 480px) {
         flex-wrap:wrap;
        
     }
+    .ser-h2{
+        font-size: 3.5rem;
+    }
+    .web-main{
+        padding-left: 22px;
+    }
 }

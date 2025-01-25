@@ -178,7 +178,7 @@ and (max-device-width : 480px) {
     overflow-x:hidden;
     background-color: #535da1;
    margin-bottom:100px;
-   height:70vh;
+   
    }
    .first a{
     padding-left: 0px;

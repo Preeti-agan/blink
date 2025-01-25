@@ -152,6 +152,8 @@ and (max-device-width : 480px) {
 
     .web-main{
         flex-wrap:wrap;
+        padding-left:10px;
+        padding-right:10px;
     }
     .webbb{
         display:flex;
@@ -171,6 +173,16 @@ and (max-device-width : 480px) {
     }
     .web-8{
         font-size:30px;
+    }
+    .web-6 img{
+display:none;
+}
+    .web-6{
+        padding-top: 30px;
+border:none;
+    }
+    .web-1{
+        margin-bottom: 10px;
     }
 }
 

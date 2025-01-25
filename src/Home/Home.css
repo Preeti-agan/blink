@@ -72,8 +72,41 @@
 
 
 
-@media (max-width: 600px) {
-    .container {
-        grid-template-columns: 1fr; 
-    }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.info-card h2{
+font-size: 3rem;
+}
+.info-item{
+    font-size: 1.5rem;
+    display:flex;
+    gap:30px;
+    text-align: center;
+}
+.info-label{
+    text-align: center;
+}
+.stats-grid{
+    gap:18px;
+  
+}
+.stats-card{
+    text-align: center;
+}
+.stats-grid strong{
+    font-size:3.3rem;
+}
+.stats-grid span{
+    font-size:2rem;
+}
+
+
+
 }
