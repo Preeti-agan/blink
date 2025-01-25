@@ -81,11 +81,17 @@ and (max-device-width : 480px) {
  .mystory{
     flex-wrap:wrap;
    justify-content: center;
-  /* margin:0px; */
+  
  }
- .rightt{
-    
+ .heading1{
+font-size:3rem;
+text-align: center;
  }
+ .para{
+    font-size:2.3rem;
+    text-align:center;
+ }
+ 
  .about1{
    padding-top:0px;
    gap:0px;

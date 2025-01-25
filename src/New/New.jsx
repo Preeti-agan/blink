@@ -27,10 +27,10 @@ const New = () => {
         <div className="sectionnn">
           <h2 className='site-footer'>STAY CONNECTED</h2>
           <div className="social-icon">
-            <a  className="social-items"href="#"><img src="/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="/instagram.png" alt="Instagram" /></a>
-            <a href="#"><img src="/pinterest.png" alt="Pinterest" /></a>
-            <a href="#"><img src="/youtube.png" alt="YouTube" /></a>
+            <a  className="social-items"href="#"><img src="https://cdn-icons-png.flaticon.com/128/4628/4628695.png" height="30px"alt="Twitter" /></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1362/1362857.png"height="30px" alt="Instagram" /></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3621/3621468.png"height="30px" alt="Pinterest" /></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/4628/4628711.png"  height="30px"alt="YouTube" /></a>
           </div>
         </div>
         <div className="section">
@@ -45,13 +45,13 @@ const New = () => {
           <p>Joshua is a professional web developer. Feel free to get in touch with me.</p>
         </div>
         <div className="section contact">
-          <div>
-            <h2>EMAIL</h2>
-            <p>hello@josh.design</p>
+          <div className='pp'>
+            <h2 >EMAIL</h2>
+            <p className='pree'>hello@josh.design</p>
           </div>
           <div>
             <h2>CALL</h2>
-            <p>120-240-9600</p>
+            <p className='pree'>120-240-9600</p>
           </div>
         </div>
       </div>
@@ -60,12 +60,12 @@ const New = () => {
         <form className="contact-form">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email address" />
-          <div className="icon-buttons">
+          {/* <div className="icon-buttons">
             <button type="button"><img src="/website.png" alt="Website" /></button>
             <button type="button"><img src="/branding.png" alt="Branding" /></button>
             <button type="button"><img src="/ecommerce.png" alt="Ecommerce" /></button>
             <button type="button"><img src="/seo.png" alt="SEO" /></button>
-          </div>
+          </div> */}
           <textarea placeholder="Tell me about the project"></textarea>
           <button type="submit" className="send-button">Send</button>
         </form>

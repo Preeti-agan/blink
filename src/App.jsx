@@ -21,7 +21,7 @@ function App(){
   return(
     <>
    
-  <First/> 
+   <First/> 
   <About/>
   <Home/> 
   <Companies/>
@@ -29,7 +29,7 @@ function App(){
    <Website/>  
   <Projects/>  
     <Branding/> 
-   {/* <New/>  */}
+   <New/>  
    
   
        
