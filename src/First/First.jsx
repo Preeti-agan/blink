@@ -30,7 +30,7 @@ const First = () => {
 
 
     <div className='sectionn2'>
-        <div className='left11'>
+        <div className='left1111'>
             <div className='hi'>
                 <img className='avtar' src="https://templatemo.com/templates/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg" alt=""></img>
                 <h1 className='hello'>Hello friend!</h1>
