@@ -27,6 +27,7 @@
     display:flex;
     align-items:center;
     flex-wrap:wrap;
+    justify-content: space-between;
     border-bottom: 1px solid #dee2e6;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
@@ -49,7 +50,7 @@
     position: relative;
     overflow: hidden;
     padding: 6px 20px 6px 15px;
-   left:100px;
+   
     transition: all ease 0.5s;
     gap:10px;
 }
