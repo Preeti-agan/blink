@@ -2,6 +2,7 @@
     background-color:#20c997;;
     border-radius:10px ;
     padding:10px 30px;
+    padding-top:19px;
    max-width:600px;
      margin:auto;
      position:relative;
@@ -20,6 +21,10 @@
     width: 160px;
     height: 160px;
     object-fit: cover;
+    transition: transform 0.3s ease-in;
+}
+.pro-img:hover{
+    transform: scale(1.1);
 }
 .pro-h2{
     color:white;
@@ -67,4 +72,15 @@ and (max-device-width : 480px) {
         flex-direction: column;
         
     }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+.project{
+    width:100%;
+    height:auto;
+    padding:10px;
+    right:-167px;
+}
+
 }
