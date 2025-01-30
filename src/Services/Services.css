@@ -30,6 +30,10 @@
     width: 160px;
     height: 160px;
     object-fit: cover;
+    transition: transform 0.3s ease-in;
+}
+.ser-img:hover{
+    transform: scale(1.1);
 }
 .ser-h2{
     color:white;

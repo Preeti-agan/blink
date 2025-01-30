@@ -98,3 +98,36 @@ text-align: center;
  }
 
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+.mystory{
+padding: 10px;;
+}
+.about1{
+   display: flex;
+   j
+   gap:10px;
+}
+
+.heading{
+   font-size:42px;;
+}
+.heading1{
+   font-size: 30px;
+   margin-top:27px;
+}
+.para{
+   font-size:20px;
+}
+.leftimgg{
+   width:530px;
+   height: 370px;
+}
+.rightt{
+   width:100%;
+   height:auto;
+}
+
+}

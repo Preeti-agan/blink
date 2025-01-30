@@ -69,6 +69,11 @@
   .pree:hover{
     color:#00a878;
   }
+  .send-button:hover{
+    color:#14B789;
+    background-color:#e9eaeb;
+    font-weight:700;
+  }
   
   
   
@@ -240,4 +245,13 @@ text-align: center;
       font-size: 2rem;
       text-align: center;
     }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+  .footer{
+    left:-170px;
+  }
 }
